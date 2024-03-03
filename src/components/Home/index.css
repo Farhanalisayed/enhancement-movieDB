@@ -1,0 +1,36 @@
+.popular-container {
+  background-color: black;
+}
+.movie-cont {
+  display: flex;
+  flex-direction: column;
+}
+.pagination-cont {
+  display: flex;
+  align-self: center;
+  margin: 5px;
+}
+.page {
+  background-color: yellow;
+  padding: 10px;
+  color: black;
+  font-size: 15px;
+  margin: 10px;
+}
+.popular-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-left: 32px;
+  padding-right: 19px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+@media (min-width: 768px) {
+  .popular-list {
+    margin-top: 32px;
+    padding-left: 165px;
+    padding-right: 135px;
+  }
+}

@@ -1,0 +1,15 @@
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  color: white;
+}
+p {
+  color: silver;
+}
+span {
+  font-size: 10px;
+  color: silver;
+}

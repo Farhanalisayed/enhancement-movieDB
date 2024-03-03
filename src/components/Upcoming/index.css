@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.movie-cont {
+  display: flex;
+  flex-direction: column;
+}
+.pagination-cont {
+  display: flex;
+  align-self: center;
+  margin: 5px;
+}
+.page {
+  background-color: yellow;
+  padding: 10px;
+  color: black;
+  font-size: 15px;
+  margin: 10px;
+}
+.originals-container {
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 0px;
+}
